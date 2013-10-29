@@ -1,6 +1,6 @@
 package Octubre;
 
-public class Jueves03 {
+public class D03Jueves {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

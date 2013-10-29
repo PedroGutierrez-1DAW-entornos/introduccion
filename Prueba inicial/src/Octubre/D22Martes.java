@@ -1,6 +1,6 @@
 package Octubre;
 
-public class Martes22 {
+public class D22Martes {
 
 	public static void main(String[] args) {
 		// Tipos de datos primivo

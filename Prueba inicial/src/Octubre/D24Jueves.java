@@ -1,6 +1,6 @@
 package Octubre;
 
-public class Jueves24 {
+public class D24Jueves {
 	
 	public static void main(String[] args) {
 		// Operadores
