@@ -1,6 +1,6 @@
-package Noviembre;
+package m02Noviembre;
 
-import Octubre.D31Jueves;
+import m01Octubre.D31Jueves;
 
 public class D12Martes {
 	public static void main(String[] args) {

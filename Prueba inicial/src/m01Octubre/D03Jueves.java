@@ -1,4 +1,4 @@
-package Octubre;
+package m01Octubre;
 
 public class D03Jueves {
 

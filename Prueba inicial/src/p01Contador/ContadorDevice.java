@@ -1,4 +1,4 @@
-package contador;
+package p01Contador;
 
 public class ContadorDevice {
 	// Atributos
