@@ -33,7 +33,7 @@ public class D31Jueves {
 		System.out.println("a: " + a + "\tb: " + b + "\tc: " + c);
 	}
 
-	private static int aleatorio(int base, int rango) {
+	public static int aleatorio(int base, int rango) {
 		return (int)(Math.random() * rango + base);
 	}
 
