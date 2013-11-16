@@ -1,5 +1,7 @@
 package m02Noviembre;
 
+import java.util.Date;
+
 import m01Octubre.D31Jueves;
 
 public class D14Jueves {
@@ -17,7 +19,9 @@ public class D14Jueves {
 	public static void main(String[] args) {
 		//prueba01();
 		//prueba02();
+		Date time = new Date();
 		prueba03();
+		System.out.println("\nTiempo: " + ((new Date()).getTime() - time.getTime()) + "ms");
 	}
 	public static void prueba01(){
 		//int numero = 0; // Solo permite almacenar un valor
@@ -57,13 +61,13 @@ public class D14Jueves {
 	public static void prueba03(){
 		// Ordenar un array de 10 números
 
-		int[] numeros = new int[16];
+		int[] numeros = new int[100000];
 
 		for(int i=0; i<numeros.length; i++)
 			numeros[i] = D31Jueves.aleatorio(1, 10);
 		
-		for(int i=0; i<numeros.length; i++)
-			System.out.print(numeros[i] + "\t");
+		//for(int i=0; i<numeros.length; i++)
+		//	System.out.print(numeros[i] + "\t");
 		
 		// Algoritmo de ordenación
 		for(int i=0; i<numeros.length; i++)
@@ -74,7 +78,7 @@ public class D14Jueves {
 					numeros[j+1] = temp;
 				}
 
-		System.out.println();
+		//System.out.println();
 		for(int i=0; i<numeros.length; i++)
 			System.out.print(numeros[i] + "\t");
 	}
