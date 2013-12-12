@@ -1,4 +1,4 @@
-package ex01_2013_12_12;
+package ex02_2013_12_12;
 
 import java.util.Scanner;
 
