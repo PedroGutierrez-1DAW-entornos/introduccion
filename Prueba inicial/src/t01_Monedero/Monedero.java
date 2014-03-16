@@ -15,6 +15,7 @@ public class Monedero {
 	
 	private final int[] valorMonedas = new int[]{1, 2, 5, 10, 20, 50, 100, 200};
 	private int[] monedas = new int[this.valorMonedas.length];
+	public final int[] VALOR_MONEDAS = valorMonedas;
 	
 	public Monedero(int[] monedas){
 		for(int i=0; i<monedas.length && i<this.monedas.length; i++)
@@ -51,7 +52,7 @@ public class Monedero {
 		System.out.println("--[Pagar]-----------");
 		System.out.printf("%1$12s%2$8s\n", "Importe", precio);
 		System.out.printf("%1$12s%2$8s\n", "Dinero", monedasIntroducidas.valorTotal());
-		System.out.println("--------------------");
+		System.out.println("--[Cambio]----------");
 		
 		if((cambio = comprobarCambio(precio, monedasIntroducidas)) == null)
 			System.out.println("Cambio insuficiente");

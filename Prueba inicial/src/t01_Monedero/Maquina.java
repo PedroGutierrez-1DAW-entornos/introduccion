@@ -1,6 +1,6 @@
 package t01_Monedero;
 
-public class MaquinaDeLatas {
+public class Maquina {
 
 	public static void main(String[] args) {
 		Monedero dinero;
@@ -16,10 +16,11 @@ public class MaquinaDeLatas {
 		dinero.pagar(31, new int[]{0, 0, 0, 2, 0, 1, 3});
 		*/
 
-		dinero = new Monedero(new int[]{0, 1, 0, 2, 5, 4, 7, 0}); // Sin cambio impar (es fácil que no tenga cambio)
+		dinero = new Monedero(new int[]{0, 3, 0, 2, 5, 4, 7, 0}); // Sin cambio impar (es fácil que no tenga cambio)
 		System.out.println(dinero);
 
 		dinero.pagar(31, new int[]{0, 0, 0, 2, 0, 1, 3});
+		dinero.pagar(126, new int[]{0, 0, 0, 2, 0, 1, 3});
 	}
 
 }
